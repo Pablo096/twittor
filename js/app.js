@@ -1,4 +1,8 @@
 
+
+if (navigator.serviceWorker) {
+    navigator.serviceWorker.register('/twittor/sw.js');
+}
 // Referencias de jQuery
 
 var titulo      = $('#titulo');
@@ -16,11 +20,6 @@ var txtMensaje  = $('#txtMensaje');
 
 // El usuario, contiene el ID del héroe seleccionado
 var usuario;
-
-
-if (navigator.serviceWorker) {
-    navigator.serviceWorker.register('/sw.js');
-}
 
 
 // ===== Codigo de la aplicación
