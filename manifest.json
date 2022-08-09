@@ -6,6 +6,12 @@
   "display": "standalone",
   "theme_color": "#3498db",
   "orientation": "portrait",
+  "intent_filters": {
+    "scope_url_scheme": "https",
+    "scope_url_host": "pablo096.github.io",
+    "scope_url_path_type": "android:pathPrefix",
+    "scope_url_path": "/twittor/"
+  },
   "icons": [
     {
         "src": "img/icons/icon-72x72.png",
